@@ -1,10 +1,10 @@
 import * as React from 'react';
 import './style.css';
-
+import Logs from './src/Logs';
 export default function App() {
   return (
     <div>
-      <h1>这是一个react的项目</h1>
+      <Logs />
     </div>
   );
 }
