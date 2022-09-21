@@ -15,5 +15,12 @@
 }
 .log-form-item .log-form-label {
   /* min-width: 60px; */
-  width: max(60px, 10%, 100px);
+  width: clamp(60px, 10%, 100px);
+}
+
+.form-btn {
+  border: none;
+  padding: 6px 16px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
 }

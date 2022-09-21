@@ -2,6 +2,9 @@ import * as React from 'react';
 import Card from '../../../components/UI/Card';
 import './index.css';
 const LogForm = (props) => {
+
+
+  
   return (
     <Card className="log-form">
       <div className="log-form-item">
@@ -21,6 +24,16 @@ const LogForm = (props) => {
           时长
         </label>
         <input className="log-form-input" id="time" type="number" />
+      </div>
+      <div className="d-flex content-center">
+        <button
+          className="form-btn"
+          onClick={() => {
+            alert(1);
+          }}
+        >
+          添加
+        </button>
       </div>
     </Card>
   );
