@@ -1,8 +1,12 @@
 .log-item {
-  border-radius: var(--border-radis, 6px);
+  /* border-radius: var(--border-radis, 6px); */
   background: orange;
   padding: 10px;
   display: flex;
+  margin-bottom: 10px;
+}
+.log-item:last-of-type {
+  margin-bottom: unset;
 }
 
 .log-item .calendar-icon {

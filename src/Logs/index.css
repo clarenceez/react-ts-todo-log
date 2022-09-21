@@ -1,5 +1,7 @@
 .logs {
-  background-color: #f2f2f2;
+  background-color: #d1dda7;
   padding: 20px;
-  border-radius: var(--border-radius);
+  max-width: 800px;
+  margin: 100px auto;
+  /* border-radius: var(--border-radius); */
 }
