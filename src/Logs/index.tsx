@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Card from '../components/UI/Card';
 import LogItem from './components/LogItem';
+import LogForm from './components/LogForm';
 import './index.css';
 
 export default function Logs(): any {
@@ -14,5 +15,10 @@ export default function Logs(): any {
     },
   ];
   const items = logList.map((x) => <LogItem key={x.id} {...x} />);
-  return <Card className="logs">{items}</Card>;
+  return (
+    <div>
+      <LogForm />
+      <Card className="logs">{items}</Card>
+    </div>
+  );
 }
