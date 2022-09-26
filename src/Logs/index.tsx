@@ -6,7 +6,7 @@ import './index.css';
 
 export default function Logs(): any {
   const logList = [
-    { date: new Date(2022, 8, 21), title: '学习React', time: '50', id: 1 },
+    { date: new Date(2022, 8, 21), title: '学习React', time: '49', id: 1 },
     {
       date: new Date(2022, 8, 22),
       title: '学习React-native',
